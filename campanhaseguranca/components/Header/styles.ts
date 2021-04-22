@@ -3,13 +3,15 @@ import { makeStyles } from '@material-ui/styles';
 export default makeStyles({
   container:{
     display: 'flex',
-    marginLeft: '10px'
+    justifyContent: 'space-around',
+    background: '#ffffff'
   },
   cosicImg: {
     objectFit: 'contain',
-    width: '10vw',
+    width: '50vw',
   },
   ufbaImg: {
-    objectFit: 'contain'
+    objectFit: 'contain',
+    width:'50vw'
   }
 });
