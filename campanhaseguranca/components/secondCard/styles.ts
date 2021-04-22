@@ -11,11 +11,14 @@ export default makeStyles({
     display: 'flex',
     background: '#700205',
     clipPath: 'rect(10px, 20px, 30px, 40px)',
-    alignItems: 'top,'
+    alignItems: 'top,',
+    paddingLeft: '4%',
+    paddingRight: '4%'
   },
   lembreSeText: {
     color: '#fff',
     fontFamily: "'PT Sans', sans-serif;",
+    fontSize: '1.6em'
   },
   ulFontStyle: {
     color: '#fff',

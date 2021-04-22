@@ -7,7 +7,6 @@ import SecondCard from '../components/secondCard/secondCard'
 export default function Home() {
   return (
     <>
-    <Header />
       <div>
         <Head>
           <title>Create Next App</title>
@@ -15,6 +14,7 @@ export default function Home() {
         </Head>
         <FirstCard />
         <SecondCard />
+        <Header />
       </div>
     </>
   )
