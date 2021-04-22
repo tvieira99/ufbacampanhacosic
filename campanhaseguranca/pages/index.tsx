@@ -1,26 +1,19 @@
 import Head from 'next/head';
 import { makeStyles } from '@material-ui/core/styles'
 import Header from '../components/Header/header';
-const styles = makeStyles({
-  background: {
-    background: '#700205'
-  },
-  text: {
-    fontSize: 'xx-large'
-  }
-});
+import FirstCard from '../components/firstCard/firstCard';
+
 
 export default function Home() {
-  const style = styles();
   return (
     <>
     <Header />
-      <div className={style.background}>
+      <div>
         <Head>
           <title>Create Next App</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <div className={style.text}>Hello World</div>
+        <FirstCard />
       </div>
     </>
   )
