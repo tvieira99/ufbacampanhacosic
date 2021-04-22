@@ -8,10 +8,10 @@ export default makeStyles({
   },
   cosicImg: {
     objectFit: 'contain',
-    width: '50vw',
+    width: '60vw',
   },
   ufbaImg: {
     objectFit: 'contain',
-    width:'50vw'
+    width:'40vw'
   }
 });

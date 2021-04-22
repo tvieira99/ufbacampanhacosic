@@ -5,29 +5,58 @@ export default makeStyles({
     margin: '0px',
     marginTop: '10px',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    marginLeft: '4%',
+    marginRight: '4%'
   },
   titulo: {
-    paddingRight: '10px',
-    paddingLeft: '10px',
     margin: '0px',
     color: '#700205',
+    fontFamily: "'PT Sans', sans-serif;",
+    fontSize: 'x-large',
+    marginBottom: '3vh',
   },
   caixaTextImg: {
-    display: 'flex',
-    alignItems: 'center'
   },
   textCaixaTextImg: {
-    marginLeft: '20px',
-    fontWeight: 'bold',
     textAlign: 'left',
-    textJustify: 'inter-word'
+    textJustify: 'auto',
+    margin: 0,
+    marginTop: '1%',
+    fontFamily: "'PT Sans', sans-serif;",
+    alignSelf: 'center',
   },
   image1: {
-    width: '50vw',
+    width: '40vw',
     height: 'auto',
-    float: 'left',
-    borderRadius: '0% 25% 25% 0%',
-    shapeOutside: 'circle()',
+    float: 'right',
+    borderRadius: '10% 0% 0% 10%',
+  },
+  listaDiv: {
+    fontFamily: "'PT Sans', sans-serif;",
+  },
+  lockTopText: {
+    margin: 0,
+    marginTop: '10px',
+  },
+  lockDiv: {
+    color: '#4c3e4e',
+    display: 'inline-flex',
+    background: '#fefefe',
+    borderRadius: '4px',
+    padding: 4,
+    marginTop: 10,
+    border: '#6a6e6e solid 1px'
+  },
+  lockText: {
+    margin: 0,
+    marginLeft: '10px'
+  },
+  olPadding: {
+    paddingLeft: '5vw',
+    marginTop: 10
+  },
+  liList: {
+    marginBottom: '15px'
   }
 });
