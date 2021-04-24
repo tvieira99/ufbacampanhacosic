@@ -1,6 +1,7 @@
 import react from 'react';
 import compStyle from './styles'
 import LockIcon from '@material-ui/icons/Lock';
+import Hidden from '@material-ui/core/Hidden'
 
 export default function firstCard() {
   const style = compStyle();
@@ -11,9 +12,9 @@ export default function firstCard() {
       );
   }
   return (
-    <>
+    <div className={style.backgroundEffect}>
       <div className={style.firstCard}>
-        <div className={style.caixaTextImg}>
+        <div>
           <img className={style.image1} src='undraw_among_nature_p1xb.svg'></img>
           <h1 className={style.titulo}>Senhas fortes</h1>
           <p className={style.textCaixaTextImg}>Criar uma senha forte vai ser como curtir uma brisa com esse tutorial!</p>
@@ -41,6 +42,6 @@ export default function firstCard() {
           </ol>
         </div>
       </div>
-    </>
+    </div>
   );
 }

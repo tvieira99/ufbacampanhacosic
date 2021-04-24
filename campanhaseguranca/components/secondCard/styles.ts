@@ -18,10 +18,11 @@ export default makeStyles({
   lembreSeText: {
     color: '#fff',
     fontFamily: "'PT Sans', sans-serif;",
-    fontSize: '1.6em'
+    fontSize: 'xx-large'
   },
   ulFontStyle: {
     color: '#fff',
     fontFamily: "'PT Sans', sans-serif;",
+    fontSize: '3vw'
   }
 });
